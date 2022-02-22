@@ -45,10 +45,19 @@
   margin-left: 10px;
 }
 
+.t4{
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: -10px;
+  color: black;
+
+}
+
+
 .button {
   background-color: black;
   width: 30%;
-  margin-left: 210px;
   border-radius: 20px;
 }
 .button h1 {
@@ -80,4 +89,14 @@
   .container-body2{
     margin-top: 200px;
   }
+
+  .t4{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -10px;
+    color: black;
+
+  }
+
 }

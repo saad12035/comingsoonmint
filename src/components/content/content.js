@@ -26,6 +26,11 @@ function ContextBody() {
         <Row>
           <Col xs={{ span: 20, offset: 2 }} lg={{ span: 16, offset: 7 }}>
             <Row>
+                <Col xs={{ span: 20, offset: 2 }} lg={{ span: 11, offset: 3 }}>
+                <h1 className="t4">0/1000 Minted</h1>
+                </Col>
+            </Row>
+            <Row>
               <Col xs={{ span: 6, offset: 2 }} lg={{ span: 3, offset: 4 }}>
                 <Image
                     preview={false}
@@ -46,9 +51,14 @@ function ContextBody() {
                 />
               </Col>
             </Row>
-            <div className="button">
-              <h1>MINT</h1>
-            </div>
+            <Row>
+              <Col xs={{ span: 16, offset: 3 }} lg={{ span: 17, offset: 6 }}>
+                <div className="button">
+                  <h1>MINT</h1>
+                </div>
+              </Col>
+            </Row>
+
 
           </Col>
         </Row>
