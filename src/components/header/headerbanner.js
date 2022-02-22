@@ -13,16 +13,19 @@ function HeaderBanner() {
           </h1>
         </Col>
         <Col xs={{ span: 22, offset: 2 }} lg={{ span: 8, offset: 10 }}>
-          <Image
+         <a href="https://twitter.com/0xcrypto_chicks?s=21"> <Image
             preview={false}
             className="img1"
             src={require("../../images/Group 8.png")}
           />
+         </a>
+          <a href="https://discord.com/invite/hCCCP5K4Xr">
           <Image
             preview={false}
             className="img2"
             src={require("../../images/Group 9.png")}
           />
+          </a>
           <Image
             preview={false}
             className="img2"
