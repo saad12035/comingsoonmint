@@ -1,0 +1,83 @@
+.box-style {
+  background-color: black;
+}
+
+.box-style p {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.po {
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.minis{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.plis{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.container-body2{
+  margin-top: 100px;
+}
+.t2{
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+  color: black;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: black;
+  width: 30%;
+  margin-left: 210px;
+  border-radius: 20px;
+}
+.button h1 {
+  color:white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .button {
+    margin-top: 20px;
+    background-color: black;
+    width: 70%;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+  .po {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 100px;
+  }
+  .testing{
+    width: 200px;
+    height: 200px;
+  }
+  .container-body2{
+    margin-top: 200px;
+  }
+}
